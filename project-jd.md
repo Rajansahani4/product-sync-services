@@ -65,6 +65,7 @@ steps to run this project
 - please set your ENV variables for database 
 - php artisan migrate
 - php artisan app:sync-products-command
+- make sure you run php artisan queue:work in another terminal
 
 for API Endpoint hit into postman to see paginated wise response
 - http://127.0.0.1:8000/api/v1/products
